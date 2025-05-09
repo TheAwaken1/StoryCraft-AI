@@ -87,28 +87,28 @@ If you installed the wrong PyTorch, you might need to uninstall it first (python
 
     *On Windows (Command Prompt):*
     
-    ```bash
-    set COQUI_TTS_AGREE_LICENSE=1
-    ```
+  ```bash
+  set COQUI_TTS_AGREE_LICENSE=1
+   ```
 
     *On Windows (PowerShell):*
     
-    ```bash
-    $env:COQUI_TTS_AGREE_LICENSE = "1"
-    ```
+  ```bash
+  $env:COQUI_TTS_AGREE_LICENSE = "1"
+   ```
 
     *On Mac/Linux:*
     
-    ```bash
-    export COQUI_TTS_AGREE_LICENSE=1
-    ```
+  ```bash
+   export COQUI_TTS_AGREE_LICENSE=1
+   ```
 *You might want to add this to your shell's profile file (e.g., .bashrc, .zshrc, or manage environment variables through Windows System Properties) for persistence.*
 
-## Run the Application:
+Run the Application:
 
-    ```bash
-    python app.py
-    ```
+  ```bash
+   python app.py
+   ```
 
 Open http://127.0.0.1:7860 in your web browser to access the Gradio UI.
 
