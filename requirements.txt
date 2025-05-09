@@ -5,3 +5,5 @@ pydub>=0.25.0 # For audio mixing
 transformers>=4.42.0
 numpy>=1.26.0
 accelerate>=0.26.0
+bitsandbytes>=0.43.0 
+coqui-tts==0.25.3 
