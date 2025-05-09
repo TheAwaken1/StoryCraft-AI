@@ -85,17 +85,20 @@ If you installed the wrong PyTorch, you might need to uninstall it first (python
 
 ## Set Coqui TTS License Environment Variable:
 
-    On Windows (Command Prompt):
+    *On Windows (Command Prompt):*
+    
     ```bash
     set COQUI_TTS_AGREE_LICENSE=1
     ```
 
-    On Windows (PowerShell):
+    *On Windows (PowerShell):*
+    
     ```bash
     $env:COQUI_TTS_AGREE_LICENSE = "1"
     ```
 
-    On Mac/Linux:
+    *On Mac/Linux:*
+    
     ```bash
     export COQUI_TTS_AGREE_LICENSE=1
     ```
