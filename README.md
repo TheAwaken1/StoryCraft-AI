@@ -1,7 +1,7 @@
 # StoryCraft AI
 
 <p align="center">
-  <img src="icon.png" alt="StoryCraft AI Logo" width="100%"/>
+  <img src="icon.png" alt="StoryCraft AI Logo" width="50%"/>
 </p>
 
 Generate engaging 1 to 5-minute short stories with LLMs and convert them to audio with Coqui TTS, supports voice cloning, built in speakers and multilingual.
