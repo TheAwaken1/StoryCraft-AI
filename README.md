@@ -19,13 +19,13 @@ This app was created as a hobby project. By using this app, you agree to the Coq
 
 2. **Create a Virtual Environment:**
 
-    * On Windows:
+    On Windows:
     ```bash
     python -m venv env
     env\Scripts\activate
     ```
 
-    * On Mac/Linux:
+   On Mac/Linux:
     ```bash
     python3 -m venv env
     source env/bin/activate
@@ -34,7 +34,7 @@ This app was created as a hobby project. By using this app, you agree to the Coq
     * (Using python or python3 depends on your system's Python installation.)
         Upgrade Pip and Install Dependencies:
 
-3.  **Upgrade Pip and Install Dependencies:**
+3.  Upgrade Pip and Install Dependencies:
     ```bash
     python -m pip install --upgrade pip
     python -m pip install -r requirements.txt --no-cache-dir
