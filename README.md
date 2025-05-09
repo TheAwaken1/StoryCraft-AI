@@ -13,7 +13,7 @@ This app was created as a hobby project. By using this app, you agree to the Coq
 
 1. **Clone the Repository:**
     ```bash
-    git clone https://github.com/<your_username>/StoryCraft-AI.git
+    git clone [https://github.com/TheAwaken1/StoryCraft-AI].git
     cd StoryCraft-AI
     ```
 
