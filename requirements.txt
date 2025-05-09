@@ -1,0 +1,13 @@
+gradio
+nltk==3.8.1
+scipy>=1.10.0 # For audio file writing
+pydub>=0.25.0 # For audio mixing
+transformers>=4.42.0
+numpy>=1.26.0
+accelerate>=0.26.0
+bitsandbytes>=0.43.0
+
+COQUI_TTS_AGREE_LICENSE": "1"
+pip cache purge && pip install coqui-tts==0.25.3 --no-cache-dir --use-pep517
+pip install bitsandbytes>=0.43.0
+python -c \"import nltk, os; nltk_data_path = os.path.join(os.getcwd(), 'nltk_data'); os.makedirs(nltk_data_path, exist_ok=True); nltk.data.path.append(nltk_data_path); nltk.download('punkt', download_dir=nltk_data_path, quiet=True); print('NLTK punkt downloaded to', nltk_data_path)\""

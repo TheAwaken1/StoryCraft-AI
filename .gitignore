@@ -1,0 +1,20 @@
+# Python
+env/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Application specific cache/outputs
+nltk_data/
+models/
+cache/
+output/
+
+# IDE / OS specific
+.vscode/
+.idea/
+*.DS_Store
+Thumbs.db
