@@ -83,21 +83,21 @@ If you installed the wrong PyTorch, you might need to uninstall it first (python
     python -c "import nltk, os; nltk_data_path = os.path.join(os.getcwd(), 'nltk_data'); os.makedirs(nltk_data_path, exist_ok=True); nltk.data.path.append(nltk_data_path); nltk.download('punkt', download_dir=nltk_data_path, quiet=True); print('NLTK punkt downloaded to', nltk_data_path)"
     ```
 
-## Set Coqui TTS License Environment Variable:
+Set Coqui TTS License Environment Variable:
 
-    *On Windows (Command Prompt):*
+  On Windows (Command Prompt):
     
   ```bash
   set COQUI_TTS_AGREE_LICENSE=1
    ```
 
-    *On Windows (PowerShell):*
+  On Windows (PowerShell):
     
   ```bash
   $env:COQUI_TTS_AGREE_LICENSE = "1"
    ```
 
-    *On Mac/Linux:*
+  On Mac/Linux:
     
   ```bash
    export COQUI_TTS_AGREE_LICENSE=1
