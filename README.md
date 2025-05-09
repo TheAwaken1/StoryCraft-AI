@@ -34,11 +34,27 @@ This app was created as a hobby project. By using this app, you agree to the Coq
     * (Using python or python3 depends on your system's Python installation.)
         Upgrade Pip and Install Dependencies:
 
-3.  Upgrade Pip and Install Dependencies:
+3.  **Upgrade Pip and Install Dependencies:**
+      ```bash
+      python -m pip install --upgrade pip
+      ```
+ **Install Core AI Libraries:**
+    * **`bitsandbytes`**: Required for efficient model loading (provides 4-bit quantization on NVIDIA GPUs).
+        ```bash
+        python -m pip install bitsandbytes>=0.43.0
+        ```
+        *(Note: 4-bit quantization benefits are primarily for NVIDIA GPUs. On other platforms like Mac or CPU-only, the model will load in 16-bit.)*
+
+  * **`Coqui TTS`**: For text-to-speech functionality.**
+        ```bash
+        python -m pip install coqui-tts==0.25.3
+        ```
+
+3.  **Install Remaining Application Dependencies:**
     ```bash
-    python -m pip install --upgrade pip
     python -m pip install -r requirements.txt --no-cache-dir
     ```
+    
 
 4.  **Install PyTorch:** 
     *The version of PyTorch you install depends on your system (NVIDIA GPU, Mac, or CPU-only Linux/Windows). Coqui TTS also installs a *version of torch and torchaudio.
