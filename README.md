@@ -4,7 +4,9 @@
   <img src="icon.png" alt="StoryCraft AI Logo" width="50%"/>
 </p>
 
-[![Buy Me A Coffee](https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png)](https://buymeacoffee.com/cmpcreativn)
+<a href="https://buymeacoffee.com/cmpcreativn" target="_blank">
+  <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" width="217" height="60">
+</a>
 
 Your Engaging Stories, Now Editable! Generate engaging 1 to 5-minute short stories with LLMs and convert them to audio with Coqui TTS, supports voice cloning, built in speakers and multilingual.
 
